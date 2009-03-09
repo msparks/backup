@@ -1,0 +1,12 @@
+name: turing
+src: root@firstbox.foo
+dest: /mnt/backup/turing
+
+files:
+  - /home
+  - /etc
+---
+name: otherserver
+src: user@otherserver.org
+dest: /mnt/backup/otherserver
+
